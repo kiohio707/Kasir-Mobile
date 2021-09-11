@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_produk"
+        android:icon="@drawable/ic_produk"
+        android:enabled="true"
+        android:title="Produk" />
+    <item
+        android:id="@+id/menu_keranjang"
+        android:icon="@drawable/ic_keranjang"
+        android:enabled="true"
+        android:title="Keranjang" />
+    <item
+        android:id="@+id/menu_riwayat"
+        android:icon="@drawable/ic_riwayat"
+        android:enabled="true"
+        android:title="Riwayat" />
+</menu>

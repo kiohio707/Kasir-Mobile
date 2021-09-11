@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/barcode_view_alert_add_keranjang"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <NumberPicker
+        android:id="@+id/number_picker_alert_keranjang"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/barcode_view_alert_add_keranjang"
+        app:layout_constraintTop_toBottomOf="@+id/barcode_view_alert_add_keranjang" />
+
+    <ImageView
+        android:id="@+id/iv_gambar_alert_keranjang"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_kardus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barcode_view_alert_add_keranjang" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/number_picker_alert_keranjang"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barcode_view_alert_add_keranjang">
+
+        <TextView
+            android:id="@+id/tv_sku_alert_keranjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SKU Produk"
+            android:textColor="#FF5722"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/barcode_view_alert_add_keranjang" />
+
+        <TextView
+            android:id="@+id/tv_nama_alert_keranjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Nama Produk"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_sku_alert_keranjang"
+            app:layout_constraintTop_toBottomOf="@+id/tv_sku_alert_keranjang" />
+
+        <TextView
+            android:id="@+id/tv_harga_alert_keranjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Harga Produk"
+            android:textColor="#4CAF50"
+            app:layout_constraintStart_toStartOf="@+id/tv_nama_alert_keranjang"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nama_alert_keranjang" />
+
+        <TextView
+            android:id="@+id/tv_stok_alert_keranjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Stok Produk"
+            android:textColor="#3F51B5"
+            app:layout_constraintStart_toStartOf="@+id/tv_harga_alert_keranjang"
+            app:layout_constraintTop_toBottomOf="@+id/tv_harga_alert_keranjang" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

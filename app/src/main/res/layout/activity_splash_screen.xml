@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    android:orientation="vertical"
+    tools:context=".Activity.SplashScreenActivity">
+
+
+    <ImageView
+        android:layout_marginTop="75dp"
+        android:id="@+id/iv_logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_kasir_mobile" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_kasir_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="KASIR MOBILE"
+        android:fontFamily="@font/momcake"
+        android:textSize="48sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_versi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ver 1.0"
+        android:fontFamily="@font/momcake"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+    <ProgressBar
+        android:indeterminateTint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"/>
+
+</LinearLayout>
