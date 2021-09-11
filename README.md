@@ -4,7 +4,7 @@ Aplikasi kasir yang diharapkan nantinya pemilik usaha mikro dan kecil dapat mema
 ## Latar Belakang
 Dikarenakan harga dari Barcode Scanner serta printer untuk mencetak struk atau bukti transaksi yang terlampau mahal bagi pemilik usaha mikro dan kecil, maka penulis memutuskan untuk membuat sebuah aplikasi mobile berbasis Android “Kasir Mobile”
 
-![Example screenshot](.Gambar Kasir Mobile.jpg)
+![Example screenshot](Gambar Kasir Mobile.jpg)
 
 ## Fitur
 1. Mesin kasir menghitung total belanja yang dilengkapi Barcode Reader jenis EAN-13
