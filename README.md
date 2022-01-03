@@ -19,6 +19,10 @@ Dikarenakan harga dari Barcode Scanner serta printer untuk mencetak struk atau b
    `'implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'`
 5. PDF Generator (https://github.com/Gkemon/Android-XML-to-PDF-Generator)
     `'implementation 'com.github.Gkemon:XML-to-PDF-generator:2.5'`
-    
+
+## Publikasi Ilmiah
+Artikel ilmiah mengenai penelitian ini:
+https://www.researchgate.net/publication/352978582_APLIKASI_KASIR_MOBILE_BERBASIS_ANDROID_UNTUK_USAHA_MIKRO_DAN_KECIL
+
 ## Cara Menginstall
 Download APK Kasir Mobile dari repository di atas, kemudian install
