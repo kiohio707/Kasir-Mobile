@@ -1,4 +1,4 @@
-# KasirMobile
+# Kasir Mobile
 Aplikasi kasir yang diharapkan nantinya pemilik usaha mikro dan kecil dapat memanajemen usahanya mulai dari inventarisasi produk hingga proses transaksi dengan pelanggan.
 
 ## Latar Belakang
